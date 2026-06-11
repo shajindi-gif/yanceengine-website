@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 外框 -->
+  <rect x="4" y="4" width="192" height="192" rx="12" ry="12" fill="#fafafa" stroke="#d1d5db" stroke-width="2"/>
+  <!-- 内部 QR 码占位区域 -->
+  <rect x="24" y="24" width="152" height="152" rx="4" ry="4" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+  <!-- 模拟 QR 码角落定位块 -->
+  <!-- 左上 -->
+  <rect x="32" y="32" width="36" height="36" rx="3" fill="none" stroke="#9ca3af" stroke-width="3"/>
+  <rect x="40" y="40" width="20" height="20" rx="2" fill="#9ca3af"/>
+  <!-- 右上 -->
+  <rect x="132" y="32" width="36" height="36" rx="3" fill="none" stroke="#9ca3af" stroke-width="3"/>
+  <rect x="140" y="40" width="20" height="20" rx="2" fill="#9ca3af"/>
+  <!-- 左下 -->
+  <rect x="32" y="132" width="36" height="36" rx="3" fill="none" stroke="#9ca3af" stroke-width="3"/>
+  <rect x="40" y="140" width="20" height="20" rx="2" fill="#9ca3af"/>
+  <!-- 中心文字 -->
+  <text x="100" y="96" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#6b7280">视频号</text>
+  <text x="100" y="116" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="10" fill="#9ca3af">请替换为真实二维码</text>
+</svg>
