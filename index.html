@@ -41,11 +41,12 @@
   <main>
 
     <!-- ========== 1. Hero ========== -->
-    <section class="hero">
+    <section class="hero hero-premium" data-hero-pattern="grid-gradient">
+      <div class="hero-bg-decor" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="hero-content">
-          <span class="badge">初创AI公司 · 产品建设中 · 欢迎预约咨询</span>
-          <h1>用AI重构政策、产业与科技金融服务</h1>
+          <span class="badge badge-hero">初创AI公司 · 产品建设中 · 欢迎预约咨询</span>
+          <h1 class="hero-headline">用AI重构政策、产业与科技金融服务</h1>
           <p class="hero-subtitle">上海衍策引擎AI科技有限公司专注于 AI Agent、RAG企业知识库、政策服务平台、科技金融投研工具与自动化工作流，帮助企业把政策、数据、知识和内容转化为可执行的智能系统。</p>
           <div class="hero-actions">
             <a href="products.html" class="btn btn-primary">了解产品服务</a>
@@ -55,8 +56,36 @@
         <div class="hero-graphic">
           <div class="hero-graphic-box">
             <span class="hero-graphic-text">YE</span>
+            <span class="hero-graphic-ring hero-graphic-ring-1" aria-hidden="true"></span>
+            <span class="hero-graphic-ring hero-graphic-ring-2" aria-hidden="true"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-1" aria-hidden="true"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-2" aria-hidden="true"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-3" aria-hidden="true"></span>
+          </div>
+          <div class="hero-graphic-float hero-graphic-float-1" aria-hidden="true">
+            <span>AI</span>
+          </div>
+          <div class="hero-graphic-float hero-graphic-float-2" aria-hidden="true">
+            <span>RAG</span>
+          </div>
+          <div class="hero-graphic-float hero-graphic-float-3" aria-hidden="true">
+            <span>Agent</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ========== Trust Strip ========== -->
+    <section class="trust-strip">
+      <div class="container trust-strip-inner">
+        <span class="trust-strip-label">服务场景</span>
+        <ul class="trust-strip-items">
+          <li>科技园区</li>
+          <li>高新企业</li>
+          <li>创业公司</li>
+          <li>产业基金</li>
+          <li>一人公司</li>
+        </ul>
       </div>
     </section>
 
@@ -189,79 +218,122 @@
     <section class="section section-alt">
       <div class="container">
         <h2 class="section-title">最新研究文章</h2>
-        <ul class="article-list">
+        <div class="article-grid">
 
-          <li>
-            <a href="articles.html">
-              <h3>我为什么在上海做一家一人AI公司</h3>
-              <p>从个人经历出发，谈谈为什么选择在上海创办一家AI公司，以及一人公司的逻辑。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">创业心得</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">我为什么在上海做一家一人AI公司</h3>
+              <p class="article-card-excerpt">从个人经历出发，谈谈为什么选择在上海创办一家AI公司，以及一人公司的逻辑。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>一人公司第一步：营业执照下来以后要做什么</h3>
-              <p>公司注册完成后的关键步骤清单，从银行开户到税务登记的实操经验。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">创业实操</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">一人公司第一步：营业执照下来以后要做什么</h3>
+              <p class="article-card-excerpt">公司注册完成后的关键步骤清单，从银行开户到税务登记的实操经验。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>AI政策平台到底解决什么问题</h3>
-              <p>拆解政策信息不对称问题，以及AI如何在检索、匹配和生成环节提升效率。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">产品解读</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">AI政策平台到底解决什么问题</h3>
+              <p class="article-card-excerpt">拆解政策信息不对称问题，以及AI如何在检索、匹配和生成环节提升效率。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>企业知识库/RAG不是概念，而是企业内部搜索引擎</h3>
-              <p>从实用角度解释RAG系统的价值，以及企业为什么需要自己的知识问答系统。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">技术解析</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">企业知识库/RAG不是概念，而是企业内部搜索引擎</h3>
+              <p class="article-card-excerpt">从实用角度解释RAG系统的价值，以及企业为什么需要自己的知识问答系统。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>上海创业者如何看徐汇、张江和模速空间</h3>
-              <p>对比上海几个主要创业聚集地的政策、资源和适合阶段。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">创业心得</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">上海创业者如何看徐汇、张江和模速空间</h3>
+              <p class="article-card-excerpt">对比上海几个主要创业聚集地的政策、资源和适合阶段。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>科技金融投研为什么必须先做数据审计</h3>
-              <p>投研系统的第一步不是模型，而是数据——谈谈数据审计的必要性和方法。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">技术解析</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">科技金融投研为什么必须先做数据审计</h3>
+              <p class="article-card-excerpt">投研系统的第一步不是模型，而是数据——谈谈数据审计的必要性和方法。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>我如何用AI Agent改造公众号和视频号生产流程</h3>
-              <p>实操分享：用AI Agent搭建从选题、写作到发布的完整自动化工作流。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">实操分享</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">我如何用AI Agent改造公众号和视频号生产流程</h3>
+              <p class="article-card-excerpt">实操分享：用AI Agent搭建从选题、写作到发布的完整自动化工作流。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>一人公司如何低成本搭建官网、公众号和视频号</h3>
-              <p>一个人如何用最少的预算完成公司线上内容基础设施的搭建。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">创业实操</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">一人公司如何低成本搭建官网、公众号和视频号</h3>
+              <p class="article-card-excerpt">一个人如何用最少的预算完成公司线上内容基础设施的搭建。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>AI+政策服务平台的商业模式</h3>
-              <p>分析政策服务平台的收费模式、客户类型和可持续经营路径。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">商业模式</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">AI+政策服务平台的商业模式</h3>
+              <p class="article-card-excerpt">分析政策服务平台的收费模式、客户类型和可持续经营路径。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-          <li>
-            <a href="articles.html">
-              <h3>我的公司未来一年产品路线图</h3>
-              <p>公开分享衍策引擎未来12个月的产品规划和里程碑。</p>
+          <article class="article-card">
+            <div class="article-card-meta">
+              <span class="article-card-category">产品规划</span>
+            </div>
+            <a href="articles.html" class="article-card-link">
+              <h3 class="article-card-title">我的公司未来一年产品路线图</h3>
+              <p class="article-card-excerpt">公开分享衍策引擎未来12个月的产品规划和里程碑。</p>
+              <span class="article-card-readmore">阅读更多 →</span>
             </a>
-          </li>
+          </article>
 
-        </ul>
+        </div>
+        <div class="article-grid-footer">
+          <a href="articles.html" class="btn btn-outline btn-lg">查看全部文章 →</a>
+        </div>
       </div>
     </section>
 
