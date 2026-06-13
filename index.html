@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>衍策引擎 - 用AI重构政策、产业与科技金融服务</title>
-  <meta name="description" content="上海衍策引擎AI科技有限公司专注于AI Agent、RAG企业知识库、政策服务平台、科技金融投研工具与自动化工作流。">
+  <title>衍策引擎 - AI驱动的产业决策引擎</title>
+  <meta name="description" content="衍策引擎是一个AI驱动的产业决策系统，为政策、金融与企业决策提供实时智能分析。Early stage, AI-native, Shanghai.">
   <meta name="keywords" content="衍策引擎,AI政策服务,RAG知识库,科技金融,投研工具,AI Agent,企业知识库,政策匹配,自动化工作流,上海AI公司">
-  <meta property="og:title" content="衍策引擎 - 用AI重构政策、产业与科技金融服务">
-  <meta property="og:description" content="上海衍策引擎AI科技有限公司专注于AI Agent、RAG企业知识库、政策服务平台、科技金融投研工具与自动化工作流。">
+  <meta property="og:title" content="衍策引擎 - AI驱动的产业决策引擎">
+  <meta property="og:description" content="衍策引擎是一个AI驱动的产业决策系统，为政策、金融与企业决策提供实时智能分析。Early stage, AI-native, Shanghai.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/og-image.svg">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,16 +21,19 @@
   <!-- ========== Header ========== -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">衍策引擎</a>
+      <a href="index.html" class="logo">
+        <img src="assets/logo-yanceengine.png" alt="衍策引擎" class="logo-img">
+        <span>衍策引擎</span>
+      </a>
       <nav class="main-nav" id="mainNav">
         <ul>
           <li><a href="index.html" class="active">首页</a></li>
-          <li><a href="products.html">产品服务</a></li>
+          <li><a href="products.html">产品系统</a></li>
           <li><a href="solutions.html">解决方案</a></li>
           <li><a href="articles.html">研究文章</a></li>
           <li><a href="about.html">关于我们</a></li>
           <li><a href="contact.html">联系我们</a></li>
-          <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">预约咨询</a></li>
+          <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Request Access</a></li>
         </ul>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="打开导航菜单">
@@ -41,183 +47,164 @@
   <main>
 
     <!-- ========== 1. Hero ========== -->
-    <section class="hero hero-premium" data-hero-pattern="grid-gradient">
+    <section class="hero hero-premium">
+      <canvas class="hero-canvas" aria-hidden="true"></canvas>
       <div class="hero-bg-decor" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="hero-content">
-          <span class="badge badge-hero">初创AI公司 · 产品建设中 · 欢迎预约咨询</span>
-          <h1 class="hero-headline">用AI重构政策、产业与科技金融服务</h1>
-          <p class="hero-subtitle">上海衍策引擎AI科技有限公司专注于 AI Agent、RAG企业知识库、政策服务平台、科技金融投研工具与自动化工作流，帮助企业把政策、数据、知识和内容转化为可执行的智能系统。</p>
+          <span class="badge badge-hero">Early Stage · AI-Native · Shanghai</span>
+          <h1 class="hero-headline">AI驱动的产业决策引擎</h1>
+          <p class="hero-subtitle">为政策、金融与企业决策提供实时智能系统</p>
           <div class="hero-actions">
-            <a href="products.html" class="btn btn-primary">了解产品服务</a>
-            <a href="contact.html" class="btn btn-outline">预约合作咨询</a>
+            <a href="products.html" class="btn btn-primary">Enter System</a>
+            <a href="#demo" class="btn btn-ghost">View Demo ↓</a>
           </div>
         </div>
-        <div class="hero-graphic">
+        <div class="hero-graphic" aria-hidden="true">
           <div class="hero-graphic-box">
-            <span class="hero-graphic-text">YE</span>
-            <span class="hero-graphic-ring hero-graphic-ring-1" aria-hidden="true"></span>
-            <span class="hero-graphic-ring hero-graphic-ring-2" aria-hidden="true"></span>
-            <span class="hero-graphic-dot hero-graphic-dot-1" aria-hidden="true"></span>
-            <span class="hero-graphic-dot hero-graphic-dot-2" aria-hidden="true"></span>
-            <span class="hero-graphic-dot hero-graphic-dot-3" aria-hidden="true"></span>
+            <img src="assets/logo-yanceengine.png" alt="" class="hero-logo-img">
+            <span class="hero-graphic-ring hero-graphic-ring-1"></span>
+            <span class="hero-graphic-ring hero-graphic-ring-2"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-1"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-2"></span>
+            <span class="hero-graphic-dot hero-graphic-dot-3"></span>
           </div>
-          <div class="hero-graphic-float hero-graphic-float-1" aria-hidden="true">
-            <span>AI</span>
-          </div>
-          <div class="hero-graphic-float hero-graphic-float-2" aria-hidden="true">
-            <span>RAG</span>
-          </div>
-          <div class="hero-graphic-float hero-graphic-float-3" aria-hidden="true">
-            <span>Agent</span>
-          </div>
+          <div class="hero-graphic-float hero-graphic-float-1"><span>AI</span></div>
+          <div class="hero-graphic-float hero-graphic-float-2"><span>RAG</span></div>
+          <div class="hero-graphic-float hero-graphic-float-3"><span>Agent</span></div>
         </div>
       </div>
     </section>
 
-    <!-- ========== Trust Strip ========== -->
+    <!-- ========== 2. Trust Strip ========== -->
     <section class="trust-strip">
       <div class="container trust-strip-inner">
-        <span class="trust-strip-label">服务场景</span>
+        <span class="trust-strip-label">SYS.SCENARIOS</span>
         <ul class="trust-strip-items">
-          <li>科技园区</li>
-          <li>高新企业</li>
-          <li>创业公司</li>
-          <li>产业基金</li>
-          <li>一人公司</li>
+          <li>科技园区</li><li>高新企业</li><li>创业公司</li><li>产业基金</li><li>一人公司</li>
         </ul>
       </div>
     </section>
 
-    <!-- ========== 2. Company Positioning ========== -->
-    <section class="section section-alt">
+    <!-- ========== 3. Product Modules ========== -->
+    <section class="section" id="products">
       <div class="container">
-        <h2 class="section-title">我们正在建设面向企业与园区的AI应用引擎</h2>
-        <p class="section-text">衍策引擎面向科技企业、园区、创业者和产业服务机构，提供政策检索、政策匹配、企业画像、材料生成、知识库问答、投研分析和内容自动化等AI工具，帮助客户提升信息处理、申报决策、研究分析和业务交付效率。</p>
-        <div class="startup-note">
-          <p>当前公司处于初创阶段，由创始人亲自带队交付，产品正在持续建设中。如果您有明确需求，欢迎直接预约咨询。</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== 3. Core Products ========== -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">核心产品</h2>
-        <div class="card-grid card-grid-4">
-
-          <a href="products.html" class="card card-product">
-            <div class="card-icon">🏛️</div>
-            <h3>AI政策服务平台</h3>
-            <p>政策检索、政策匹配、申报材料生成、企业画像、项目进度管理。</p>
-          </a>
-
-          <a href="products.html" class="card card-product">
-            <div class="card-icon">📚</div>
-            <h3>企业知识库 / RAG系统</h3>
-            <p>把企业文档、政策资料、研究报告、合同制度转化为可问答、可检索、可复用的知识系统。</p>
-          </a>
-
-          <a href="products.html" class="card card-product">
-            <div class="card-icon">📊</div>
-            <h3>科技金融投研工具</h3>
-            <p>支持多市场数据审计、产业链扫描、标的跟踪、报告生成与风控规则管理。</p>
-          </a>
-
-          <a href="products.html" class="card card-product">
-            <div class="card-icon">✍️</div>
-            <h3>AI内容与工作流</h3>
-            <p>面向公众号、视频号、研究报告、项目申报、客户沟通等场景的内容自动化生产系统。</p>
-          </a>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== 4. Application Scenarios ========== -->
-    <section class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">应用场景</h2>
+        <div class="section-label">CORE.SYSTEMS</div>
+        <h2 class="section-title">产品系统</h2>
+        <p class="section-subtitle">三个核心系统，覆盖从信息采集到决策输出的完整链路</p>
         <div class="card-grid card-grid-3">
-
-          <div class="card card-scenario">
-            <div class="card-icon">🏢</div>
-            <h3>园区招商与企业服务</h3>
-            <p>为产业园区提供政策匹配、企业画像和招商辅助工具，提升园区产服效率。</p>
+          <div class="module-card card fade-in">
+            <div class="module-icon">⚙️</div>
+            <h3 class="module-title">AI政策引擎</h3>
+            <div class="module-problem"><span class="module-label">Problem</span><p>政策信息分散在数百个来源，无法结构化利用</p></div>
+            <div class="module-solution"><span class="module-label">Solution</span><p>实时抓取 + RAG检索 + 企业画像匹配</p></div>
+            <div class="module-output"><span class="module-label">Output</span><p>自动生成可执行的政策匹配报告与申报建议</p></div>
+            <a href="products.html" class="module-link">探索系统 →</a>
           </div>
-
-          <div class="card card-scenario">
-            <div class="card-icon">📋</div>
-            <h3>科技企业政策申报</h3>
-            <p>帮助科技型中小企业快速匹配政策、生成申报材料、跟踪项目进度。</p>
+          <div class="module-card card fade-in fade-in-delay-1">
+            <div class="module-icon">📡</div>
+            <h3 class="module-title">产业扫描系统</h3>
+            <div class="module-problem"><span class="module-label">Problem</span><p>行业信息滞后，关键变化信号被噪音淹没</p></div>
+            <div class="module-solution"><span class="module-label">Solution</span><p>多源数据接入 + Agent聚合分析 + 变化检测</p></div>
+            <div class="module-output"><span class="module-label">Output</span><p>每日产业变化摘要与关键信号推送</p></div>
+            <a href="products.html" class="module-link">探索系统 →</a>
           </div>
-
-          <div class="card card-scenario">
-            <div class="card-icon">🗄️</div>
-            <h3>企业知识库建设</h3>
-            <p>将企业文档、制度、报告转化为可检索、可问答的智能知识库系统。</p>
+          <div class="module-card card fade-in fade-in-delay-2">
+            <div class="module-icon">📊</div>
+            <h3 class="module-title">投研决策系统</h3>
+            <div class="module-problem"><span class="module-label">Problem</span><p>信息噪音高，人工处理效率低，决策依据不完整</p></div>
+            <div class="module-solution"><span class="module-label">Solution</span><p>结构化因子分析 + AI筛选 + 风控规则引擎</p></div>
+            <div class="module-output"><span class="module-label">Output</span><p>结构化交易/配置建议与风险评估报告</p></div>
+            <a href="products.html" class="module-link">探索系统 →</a>
           </div>
-
-          <div class="card card-scenario">
-            <div class="card-icon">💹</div>
-            <h3>科技金融投研</h3>
-            <p>支持数据审计、行业扫描、标的跟踪和投研报告自动化生成。</p>
-          </div>
-
-          <div class="card card-scenario">
-            <div class="card-icon">🎬</div>
-            <h3>AI内容生产</h3>
-            <p>面向公众号、视频号、研究报告等内容场景的自动化生产与分发。</p>
-          </div>
-
-          <div class="card card-scenario">
-            <div class="card-icon">🚀</div>
-            <h3>一人公司自动化运营</h3>
-            <p>帮助个人创业者低成本搭建官网、内容体系和客户管理系统。</p>
-          </div>
-
         </div>
       </div>
     </section>
 
-    <!-- ========== 5. Methodology ========== -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">从信息到决策，从内容到产品，从知识到系统</h2>
-        <div class="steps-grid">
-
-          <div class="step">
-            <div class="step-number">01</div>
-            <h3>采集</h3>
-            <p>政策、公告、财报、新闻、企业资料、产业数据</p>
-          </div>
-
-          <div class="step">
-            <div class="step-number">02</div>
-            <h3>清洗</h3>
-            <p>数据审计、来源校验、字段标准化、知识切片</p>
-          </div>
-
-          <div class="step">
-            <div class="step-number">03</div>
-            <h3>分析</h3>
-            <p>RAG问答、Agent推理、规则引擎、报告生成</p>
-          </div>
-
-          <div class="step">
-            <div class="step-number">04</div>
-            <h3>交付</h3>
-            <p>官网、报告、申报材料、客户系统、自动化工作流</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== 6. Latest Articles ========== -->
+    <!-- ========== 4. Tech Architecture ========== -->
     <section class="section section-alt">
       <div class="container">
-        <h2 class="section-title">最新研究文章</h2>
+        <div class="section-label">ARCHITECTURE</div>
+        <h2 class="section-title">系统架构</h2>
+        <p class="section-subtitle">五层架构，从原始数据到用户决策</p>
+        <div class="tech-layers">
+          <div class="tech-layer fade-in"><div class="tech-layer-icon">◉</div><div class="tech-layer-label">Data Layer</div><p>政策源 · 财报 · 新闻 · 产业数据</p></div>
+          <div class="tech-layer-connector" aria-hidden="true">→</div>
+          <div class="tech-layer fade-in fade-in-delay-1"><div class="tech-layer-icon">⟡</div><div class="tech-layer-label">Agent Layer</div><p>任务调度 · 多Agent协作 · 工具调用</p></div>
+          <div class="tech-layer-connector" aria-hidden="true">→</div>
+          <div class="tech-layer fade-in fade-in-delay-2"><div class="tech-layer-icon">◈</div><div class="tech-layer-label">RAG Layer</div><p>向量检索 · 知识图谱 · 语义匹配</p></div>
+          <div class="tech-layer-connector" aria-hidden="true">→</div>
+          <div class="tech-layer fade-in fade-in-delay-3"><div class="tech-layer-icon">◇</div><div class="tech-layer-label">API Layer</div><p>RESTful · WebSocket · 数据输出</p></div>
+          <div class="tech-layer-connector" aria-hidden="true">→</div>
+          <div class="tech-layer fade-in"><div class="tech-layer-icon">□</div><div class="tech-layer-label">UI Layer</div><p>Dashboard · Report · Chat · Alert</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5. Demo Section ========== -->
+    <section class="section demo-section" id="demo">
+      <div class="container">
+        <div class="section-label">SYSTEM.DEMO</div>
+        <h2 class="section-title">系统演示</h2>
+        <div class="demo-frame fade-in">
+          <div class="demo-placeholder">
+            <div class="demo-play-icon">▶</div>
+            <p class="demo-label">System Demo · Coming Soon</p>
+            <p class="demo-desc">数据输入 → Agent处理 → 结构化输出</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. Data Pipeline ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-label">DATA.PIPELINE</div>
+        <h2 class="section-title">数据处理流程</h2>
+        <div class="steps-grid">
+          <div class="step fade-in"><div class="step-number">01</div><h3>采集</h3><p>政策公告 · 财报数据 · 产业新闻 · 企业资料</p></div>
+          <div class="step fade-in fade-in-delay-1"><div class="step-number">02</div><h3>清洗</h3><p>数据审计 · 来源校验 · 字段标准化 · 知识切片</p></div>
+          <div class="step fade-in fade-in-delay-2"><div class="step-number">03</div><h3>分析</h3><p>RAG问答 · Agent推理 · 规则引擎 · 报告生成</p></div>
+          <div class="step fade-in fade-in-delay-3"><div class="step-number">04</div><h3>交付</h3><p>决策报告 · 申报材料 · 客户系统 · 自动化工作流</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 7. Use Cases ========== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-label">USE.CASES</div>
+        <h2 class="section-title">使用场景</h2>
+        <div class="scenario-grid">
+          <div class="scenario-card fade-in">
+            <div class="scenario-role">政策研究员</div>
+            <div class="scenario-input"><span class="scenario-label">输入</span><p>企业基本信息 + 行业关键词</p></div>
+            <div class="scenario-output"><span class="scenario-label">输出</span><p>匹配政策清单 + 申报建议 + 材料模板</p></div>
+          </div>
+          <div class="scenario-card fade-in fade-in-delay-1">
+            <div class="scenario-role">投资人</div>
+            <div class="scenario-input"><span class="scenario-label">输入</span><p>标的公司 + 投资偏好 + 风控规则</p></div>
+            <div class="scenario-output"><span class="scenario-label">输出</span><p>结构化投研报告 + 风险提示 + 配置建议</p></div>
+          </div>
+          <div class="scenario-card fade-in fade-in-delay-2">
+            <div class="scenario-role">创业者</div>
+            <div class="scenario-input"><span class="scenario-label">输入</span><p>公司阶段 + 业务方向 + 资源状况</p></div>
+            <div class="scenario-output"><span class="scenario-label">输出</span><p>政策匹配 + 内容生产 + 自动化运营方案</p></div>
+          </div>
+          <div class="scenario-card fade-in fade-in-delay-3">
+            <div class="scenario-role">企业战略负责人</div>
+            <div class="scenario-input"><span class="scenario-label">输入</span><p>行业动态 + 竞品信息 + 政策变化</p></div>
+            <div class="scenario-output"><span class="scenario-label">输出</span><p>产业变化摘要 + 决策简报 + 预警推送</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 8. Articles ========== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-label">RESEARCH</div>
+        <h2 class="section-title">最新研究</h2>
         <div class="article-grid">
 
           <article class="article-card">
@@ -337,12 +324,15 @@
       </div>
     </section>
 
-    <!-- ========== 7. CTA Banner ========== -->
-    <section class="section section-cta">
+    <!-- ========== 9. CTA ========== -->
+    <section class="cta-section">
       <div class="container cta-inner">
-        <h2>欢迎联系衍策引擎</h2>
-        <p>如果你正在寻找AI政策工具、企业知识库、园区产服系统、科技金融投研工具或AI内容自动化方案，欢迎预约咨询。</p>
-        <a href="contact.html" class="btn btn-primary btn-lg">预约合作咨询</a>
+        <h2 class="cta-heading">Request Access</h2>
+        <p class="cta-subtitle">系统正在建设中。如果你有明确的政策匹配、知识库、投研或内容自动化需求，欢迎预约早期访问。</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Try Beta</a>
+          <a href="products.html" class="btn btn-ghost btn-lg">View System →</a>
+        </div>
       </div>
     </section>
 
@@ -353,8 +343,11 @@
     <div class="container footer-grid">
 
       <div class="footer-col footer-brand">
-        <a href="index.html" class="logo">衍策引擎</a>
-        <p>上海衍策引擎AI科技有限公司<br>用AI重构政策、产业与科技金融服务</p>
+        <a href="index.html" class="logo">
+          <img src="assets/logo-yanceengine.png" alt="衍策引擎" class="logo-img">
+          <span>衍策引擎</span>
+        </a>
+        <p>上海衍策引擎AI科技有限公司<br>AI驱动的产业决策引擎</p>
       </div>
 
       <div class="footer-col">
